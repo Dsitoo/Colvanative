@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Colvaapp",
+    "slug": "colvaapp",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-file-system",
+        {
+          "filePermission": "READ_EXTERNAL_STORAGE",
+          "writePermission": "WRITE_EXTERNAL_STORAGE"
+        }
+      ],
+      "expo-media-library"
+    ],
+    "android": {
+      "package": "com.colvaapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo_colvatel.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
